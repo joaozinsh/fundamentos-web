@@ -1,0 +1,134 @@
+/*
+Estilos da pagina index.html
+*/
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    margin: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.tamanho {
+    width: 500px;
+    height: auto;
+}
+
+.tamanho-tux {
+    display: flex;
+    width: 150px;
+    height: 176px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagens p {
+    margin-top: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+}
+
+.lista li{
+    display: inline;
+    width: 50%;
+    padding: 25px;
+    padding-top: 0px;
+    margin-bottom: 25px;
+}
+
+.lista li a{
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.lista a:hover {
+    color: crimson;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+}
+
+.videos iframe {
+    margin: 20px;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.contato h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contato p {
+    font-size: 20px;
+}
+
+.contato a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    color: crimson;
+}
+
+
+/*
+Estilos da pagina contato.html
+*/
+
+.mapa {
+    margin-left: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.voltar-home {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.voltar-home a {
+    text-decoration: none;
+    color: black;
+}
+
+.voltar-home a:hover {
+    color: crimson;
+}
